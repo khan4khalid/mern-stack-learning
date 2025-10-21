@@ -1,0 +1,95 @@
+#raw{
+    width:600px;
+    height:600px;
+    background-color:rgb(255, 255, 255);
+    display:grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap:10px 10px;
+    margin:50px;
+}
+
+#s1{
+    grid-column:1/13;
+    background-color:pink;
+}
+
+#s2{
+    grid-column:1/4;
+    grid-row:2/10;
+    background-color: pink;
+}
+#s3{
+    background-color: pink;
+    grid-column:4/10;
+     
+}
+#s4{
+    background-color: pink;
+    grid-column:4/10;
+    grid-row:3/10;
+}
+#s5{
+    background-color: pink;
+    grid-column:10/13;
+    grid-row:2/10;
+}
+#s6{
+    background-color: pink;
+    grid-column:1/13;
+}
+
+
+@media (max-width:700px){
+
+#s1{
+    grid-column:1/13;
+    background-color:pink;
+}
+#s3{
+    grid-column:1/13;
+    grid-row-start:2;
+    background-color: pink;
+}
+#s2{
+    grid-column:1/4;
+    grid-row:3/12;
+    background-color: pink;
+}
+#s4{
+    grid-column:4/13;
+    grid-row:3/12;
+    background-color: pink;
+}
+#s5{
+    grid-row-start:12;
+    grid-row-end:13;
+    
+    grid-column:1/4;
+    background-color: pink;
+}
+#s6{
+    
+    grid-column:4/13;
+    background-color: pink;
+}
+}
+
+.loader{
+    border:16px solid #f3f3f3;
+    border-top:16px solid goldenrod;
+    border-radius:50%;
+    width:12px;
+    height:12px;
+    animation:spin 3s linear infinite;
+    
+
+}
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}

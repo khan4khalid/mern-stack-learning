@@ -1,0 +1,13 @@
+div{
+    background-color: blue;
+}
+input{
+    background-color:inherit;
+}
+button{
+    background-color:inherit;
+}
+button:hover{
+    background-color:aqua;
+    color:darkblue;
+}

@@ -1,0 +1,41 @@
+h2{
+    color:aquamarine;
+}
+h1{
+    color:red;
+}
+h3{
+    color:blue;
+    text-align:center;
+}
+h4{
+    color:crimson;
+    font-size:30px;
+}
+#pets{
+    /* width:800px;
+    height:800px;
+    border-radius:10px; */
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.card{
+    width:400px;
+    
+    border-radius:10px;
+    border:5px solid black;
+    padding:10px;
+    margin:10px;
+    
+
+}
+img{
+    width:100%;
+    border-radius:5px;
+}
+@media (max-width:375px){
+    #pets{
+        flex-wrap:wrap;
+    }
+}

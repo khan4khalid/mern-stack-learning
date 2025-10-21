@@ -1,0 +1,39 @@
+h1{
+    color:aquamarine;
+    background-color:green;
+    text-align:"center";
+    width:50%;
+    letter-spacing:10px;
+
+}
+h2{
+    color:chartreuse;
+    background-color: cornsilk;
+    letter-spacing:10px;
+}
+p{
+    color:black;
+    font-size:large;
+    background-color: rgb(252, 252, 252);
+    line-height:1.5;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:justify;
+    
+}
+p1{
+    color:rgb(0, 0, 0);
+    font-size:midium;
+}
+button{
+    color:gold;
+    background-color: darkred;
+    text-align:"center";
+    
+    
+}
+a{
+    text-decoration:none;
+    color:red;
+    font-size:15px;
+}

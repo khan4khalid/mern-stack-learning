@@ -1,0 +1,38 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    /* flex-direction:row;  this control width but not height */
+    /* flex-direction:column;  this control height but not width */
+
+    justify-content:flex-start;
+    /* justify-content: flex-end; */
+    /* justify-content:center; */
+    /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly; */
+    /* flex-wrap:nowrap; */
+    flex-wrap:wrap;
+    /* flex-wrap:wrap-reverse; */
+    /* justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content:center; */
+    /* justify-content: baseline; */
+    align-content:baseline;
+
+}
+h1{
+    text-align:center;
+}
+
+#container div{
+    height:100px;
+    width:100px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+}

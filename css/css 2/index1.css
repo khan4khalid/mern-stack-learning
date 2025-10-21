@@ -1,0 +1,77 @@
+*{
+    font-family:"coueier New"
+}
+h3,h1{
+    color:#b92b27;
+}
+#login{
+    background-color:white;
+    color:black;
+}
+#signup{
+    background-color: #b92b27;
+}
+.upvote{
+    background-color:hsl(128, 100%, 59%)
+}
+nav ul li a {
+    color:cadetblue;
+}
+.post a {
+    color:darkseagreen;
+    background-color:azure;
+}
+p+h3 {
+    text-decoration: rgb(0, 0, 0) underline;
+}
+.upvote+button{
+    color:darkseagreen;
+    background-color:azure;
+}
+div>input{
+    background-color:azure;
+    color:darkseagreen ;
+}
+input[placeholder="username"]{
+    color:red;
+}
+input[type="password"]{
+    color:blue;
+}
+div[id="myid"] p{
+    background-color:lightblue;
+    color:darkblue;
+}
+button:hover{
+    background-color:blue;
+    color:white;
+}
+button:active{
+    background-color:pink;
+    color:darkblue;
+}
+#login:hover{
+    background-color: #55ff00;
+    color:white;
+}
+#login:active{
+    background-color:blue;
+    color:white;
+}
+input[type="radio"]:checked+label{
+    color:red;
+}
+div:nth-of-type(2n){
+    background-color:azure;
+}
+h1::first-letter{
+    color:blue;
+}
+p::first-line{
+    color:purple;
+    background-color:white;
+}
+p::selection{
+    color:greenyellow
+}
+

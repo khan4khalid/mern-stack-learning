@@ -1,0 +1,39 @@
+/* h1{
+    font-family:League spartan;
+    color:#ffa511;
+    text-align:center;
+    font-size:55px;
+    font-weight:900;
+    letter-spacing:2px;
+    line-height:1.5*normal;
+    text-decoration:teal double underline;
+    text-transform:uppercase;
+
+} */
+
+
+        p{
+            color:#ff0000;
+            text-align:center;
+            line-height:30px;
+        }
+        h1{
+            text-align:center;
+            text-decoration:red double underline;
+        }
+        h3{
+            color:black;
+            text-align:center;
+        } 
+        a{
+            text-decoration:none;
+            color:rgb(0, 255, 0);
+            
+        }
+        button{
+            background-color:white;
+            color:blueviolet;
+        }
+        textarea{
+            color:rgb(255, 0, 0);
+        }

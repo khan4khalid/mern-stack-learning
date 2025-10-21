@@ -1,0 +1,65 @@
+.msc{
+    background-color:pink;
+    height:100px;
+    width:100px;
+    /* animation-name:widthanime;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate; */
+    /* animation:widthanime 2s ease-in 0s infinite alternate; */
+    color:white;
+    animation:ros 2s ease-in 0s normal alternate;
+}
+
+@keyframes fontanime{
+    from{font-size:20px;}
+    to{font-size:40px;}
+}
+
+@keyframes widthanime{
+    from{
+        width:10px;
+        background-color:aquamarine
+        
+    }
+    to{
+        width:200px;
+        background-color:black;
+    }
+}
+
+@keyframes ros{
+    0%{
+        font-size:20px;
+    }
+    50%{
+        font-size:30px;
+    }
+    100%{
+        font-size:40px;
+    }
+}
+h2{
+    background-color:aqua;
+    border:2px solid black;
+}
+
+/* @media(width:400px){
+    h2{
+        background-color:red;
+    }
+} */
+
+@media(min-width:400px){
+    h2{
+        background-color:red;
+        color:white;
+    }
+}
+@media(orientation:landscape){
+    h2{
+        background-color:blueviolet;
+    }
+}
