@@ -1,0 +1,80 @@
+/* practice 1 */
+/* h2{
+    color:orange;
+}
+p{
+    background-color:black;
+    color:white;
+    
+}
+button{
+    background-color:blue;
+    color:white;
+} */
+
+
+/* practice 2
+*{
+    background-color: wheat;
+    font-family:georgia;
+}
+p{
+    color:brown;
+    line-height:30px;
+    text-align:center;
+}
+h1,h3,h4{
+    text-align:center;
+    color:black;
+}
+a{
+    color:green;
+    text-decoration:none;
+}
+button{
+    background-color:white;
+    color:blueviolet;
+
+}
+textarea{
+    color:black;
+
+}
+span{
+    text-decoration:underline;
+} */
+
+
+/* practice 3 */
+/* #maintopic{
+    color:blue;
+}
+*{
+    text-align:center;
+}
+h1,h3,h5{
+    font-family:Georgia;
+}
+.p{
+    color:white;
+    background-color:cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color:azure;
+}
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+p:nth-of-type(2n+1)
+{
+    color:yellow;
+}
+h1::first-letter{
+    color:red;
+}
+#yes:checked+label{
+    color:rgb(97, 100, 0);
+} */
+
